@@ -36,14 +36,12 @@ used to manage complexity in your program.
 The first program code segment must show how data have been stored in the list.
 
 ```csharp
- this.lettersGuessed.Add(guess[0]);
+this.lettersGuessed.Add(guess[0]);
 ```
 
 ### 3b ii.
 
-The second program code segment must show the data in the same list being used,
-such as creating new data from the existing data or accessing multiple elements
-in the list, as part of fulfilling the program's purpose.
+The second program code segment must show the data in the same list being used, such as creating new data from the existing data or accessing multiple elements in the list, as part of fulfilling the program's purpose.
 
 ```csharp
 foreach (char c in this.lettersGuessed)
